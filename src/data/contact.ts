@@ -24,24 +24,20 @@ export interface ContactContent {
 export const CONTACT_DATA: Record<Language, ContactContent> = {
   zh: {
     baseLabel: "BASE",
-    locationValue: "杭州, 九江",
+    locationValue: "杭州",
     contactLabel: "取得联系",
     emailMeLabel: "邮箱",
     email: "2446441444@qq.com",
     hello: "你好 ;-)",
     intro: "欢迎探讨与合作。",
     socials: {
-      wechat: "YourWeChatID",
-      xiaohongshu: "YourID",
-      bilibili: "YourID",
-      px500: "YourID"
+      wechat: ""O0o67zZ",
     },
-    githubLabel: "GitHub",
     footerDesign: "Powered by Gemini 3 Pro"
   },
   en: {
     baseLabel: "BASE",
-    locationValue: "Your City, Country",
+    locationValue: "杭州",
     contactLabel: "Get in touch",
     emailMeLabel: "Email Me",
     email: "2446441444@qq.com",
@@ -49,9 +45,7 @@ export const CONTACT_DATA: Record<Language, ContactContent> = {
     intro: "Welcome to discuss & cooperate.",
     socials: {
       wechat: "O0o67zZ",
-      px500: "YourID"
     },
-    githubLabel: "GitHub",
     footerDesign: "Powered by Gemini 3 Pro"
   }
 };

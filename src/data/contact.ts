@@ -24,10 +24,10 @@ export interface ContactContent {
 export const CONTACT_DATA: Record<Language, ContactContent> = {
   zh: {
     baseLabel: "BASE",
-    locationValue: "Your City, Country",
+    locationValue: "杭州, 九江",
     contactLabel: "取得联系",
     emailMeLabel: "邮箱",
-    email: "your.email@example.com",
+    email: "2446441444@qq.com",
     hello: "你好 ;-)",
     intro: "欢迎探讨与合作。",
     socials: {
@@ -44,13 +44,11 @@ export const CONTACT_DATA: Record<Language, ContactContent> = {
     locationValue: "Your City, Country",
     contactLabel: "Get in touch",
     emailMeLabel: "Email Me",
-    email: "your.email@example.com",
+    email: "2446441444@qq.com",
     hello: "Hello ;-)",
     intro: "Welcome to discuss & cooperate.",
     socials: {
-      wechat: "YourWeChatID",
-      xiaohongshu: "YourID",
-      bilibili: "YourID",
+      wechat: "O0o67zZ",
       px500: "YourID"
     },
     githubLabel: "GitHub",

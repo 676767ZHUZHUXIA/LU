@@ -16,10 +16,9 @@ export interface HomeContent {
 export const HOME_DATA: Record<Language, HomeContent> = {
   zh: {
     heroItems: [
-      { text: "角色插画", annotation: "（走治愈系风格）", category: Category.VIDEO }, 
-      { text: "图案设计", annotation: "（主攻方向，项目管理）", category: Category.DESIGN },
-      { text: "网站开发", annotation: "（纯小白边学边做）", category: Category.DEV },
-      { text: "炒粉炒饭", annotation: "（还在学）", category: null }
+      { text: "品牌全域视觉", annotation: "（项目管理）", category: Category.VIDEO }, 
+      { text: "电商设计", annotation: "（电商全流程）", category: Category.DESIGN },
+      { text: "作品整合", annotation: "（什么都有）", category: Category.DEV },
     ],
     intro: "欢迎来到我的个人主页！这里记录了我的设计作品与成长轨迹。",
     selectedWorks: "精选作品",
